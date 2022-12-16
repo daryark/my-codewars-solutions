@@ -13,4 +13,9 @@
 // 	return sheepsPresent;
 // }
 
+//refactor
+// function countSheeps(arrayOfSheep) {
+// 	return arrayOfSheep.reduce((total, i) => (i > 0 ? total + 1 : total), 0);
+// }
+
 // countSheeps(sheeps);
