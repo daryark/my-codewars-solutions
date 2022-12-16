@@ -5,6 +5,6 @@
 //f.e setAlarm(false, false) -> false
 //f.e setAlarm(true, false) -> true
 
-function setAlarm(employed, vacation) {
-	return employed && !vacation;
-}
+// function setAlarm(employed, vacation) {
+// 	return employed && !vacation;
+// }
