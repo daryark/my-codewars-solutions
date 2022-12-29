@@ -11,8 +11,11 @@
 //f.e Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
 
 // function narcissistic(value) {
-// 	const numArr = String(value).split("");
-// 	return numArr.reduce((acc, digit) => (acc += Number(digit) ** numArr.length), 0) === value;
+// 	return (
+// 		String(value)
+// 			.split("")
+// 			.reduce((acc, digit, i, arr) => (acc += Number(digit) ** arr.length), 0) === value
+// 	);
 // }
 
 // console.log(narcissistic(153));
