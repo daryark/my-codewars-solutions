@@ -4,9 +4,11 @@ import "./8kyu/l1-set-alarm.js";
 import "./8kyu/maximum-and-minimum.js";
 import "./8kyu/opposites-attract.js";
 import "./8kyu/squaring-an-argument.js";
+import "./8kyu/reverse-vowels-in-a-string.js";
 
 import "./7kyu/vowel-count.js";
 import "./7kyu/reverse-words.js";
+import "./7kyu/set-reducer.js";
 
 import "./6kyu/multiples-of-3-or-5.js";
 import "./6kyu/does-my-number-look-big-in-this.js";
